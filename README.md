@@ -17,5 +17,5 @@
 
 ## Lisensi
 
-Proyek ini berada di bawah Lisensi GNU Lesser General Public License v3.0 <br />
+Proyek ini berada di bawah Lisensi GNU General Public License v3.0 <br />
 Harap melihat [LICENSE](LICENSE) untuk informasi tingkat lanjut.
