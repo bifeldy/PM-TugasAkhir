@@ -10,5 +10,8 @@ Pemrograman Mobile Android
   <img align="left" width="100" src="images/Screenshot_2019-05-23-08-52-53.png" />
 </p>
 
+<br />
+<br />
+
 ## Aplikasi Gudang Toko `Prima Elektrik`
-> Sign In with Google Account + Integrated with Firebase Realtime Database <br />
+> Sign In with Google Account + Integrated with Firebase Realtime Database
