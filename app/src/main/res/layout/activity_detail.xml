@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_favorite_border"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:paddingBottom="8dp">
+
+            <ImageView
+                android:id="@+id/product_detail_image"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/maido" />
+
+            <TextView
+                android:id="@+id/product_detail_name"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:text="Nama Produk"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_image" />
+
+            <TextView
+                android:id="@+id/product_detail_price"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Rp. 1.234.567.890,-"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_name" />
+
+            <TextView
+                android:id="@+id/product_detail_i"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:text="Informasi Produk"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_price" />
+
+            <TextView
+                android:id="@+id/product_detail_stock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Stok Tersisa"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_i" />
+
+            <TextView
+                android:id="@+id/product_detail_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Kategori"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_stock" />
+
+            <TextView
+                android:id="@+id/product_detail_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="8dp"
+                android:text="Deskripsi Produk"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_category" />
+
+            <TextView
+                android:id="@+id/product_detail_description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum varius sit amet. Malesuada nunc vel risus commodo viverra maecenas accumsan lacus. Gravida neque convallis a cras semper. Congue eu consequat ac felis donec et. Diam sollicitudin tempor id eu nisl nunc. Ante in nibh mauris cursus mattis molestie a. Mauris rhoncus aenean vel elit scelerisque. Quis vel eros donec ac. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Amet porttitor eget dolor morbi non arcu risus. Ac ut consequat semper viverra nam libero justo laoreet sit. Ut ornare lectus sit amet est placerat in. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. In nibh mauris cursus mattis molestie a iaculis at. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Curabitur vitae nunc sed velit dignissim sodales ut. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum.\n\nFaucibus vitae aliquet nec ullamcorper sit. Sed augue lacus viverra vitae. Commodo odio aenean sed adipiscing diam donec adipiscing. Quam elementum pulvinar etiam non quam lacus suspendisse faucibus interdum. Aliquam nulla facilisi cras fermentum odio eu feugiat. Et malesuada fames ac turpis. Morbi blandit cursus risus at ultrices mi. Id ornare arcu odio ut sem nulla pharetra diam sit. Egestas dui id ornare arcu odio ut. Et tortor consequat id porta nibh venenatis cras sed. Convallis posuere morbi leo urna.\n"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_detail_d" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
